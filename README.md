@@ -1,3 +1,5 @@
+# 🚨 FOR ANYONE IN CEN3031 WORKING ON AN ISSUE FROM HERE AS YOUR OPEN SOURCE CONTRIBUTION, FEEL FREE TO FORK AND WORK ON THE ISSUE WITHOUT ASKING 🚨
+
 # Studygatchi
 
 Studygatchi is an open-source Chrome/Firefox extension that encourages productivity and studying through combining Tamagotchi-style pet mechanics and gachapon/gambling!
@@ -10,7 +12,7 @@ Check out UF OSC's other projects here: <https://ufosc.org/projects/>
 
 The fastest way to get the full stack running locally is by using Docker Compose.
 
-### Prerequsites
+### Prerequisites
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) or [Docker Engine](https://docs.docker.com/compose/install/) with the `docker-compose` plugin.
 - Make sure you have [Node.js](https://nodejs.org/) (version 18+ or 20+) installed on your machine.
