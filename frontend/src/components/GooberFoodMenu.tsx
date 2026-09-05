@@ -22,7 +22,7 @@ interface FoodItem {
 
 const ITEMS_PER_PAGE = 6;
 
-function shuffleArray<T>(array: T[]) {
+function fisherYatesShuffle<T>(array: T[]) {
   const copy = [...array];
   for (let i = copy.length - 1; i > 0; i -= 1) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -63,7 +63,7 @@ console.log("foodPool", foodPool);
 
 export default function GooberFoodMenu({ money = 0 }: Props) {
   const [page, setPage] = useState(1);
-  const [foods] = useState(() => shuffleArray(foodPool));
+  const [foods] = useState(() => fisherYatesShuffle(foodPool));
 
   const totalPages = Math.ceil(foods.length / ITEMS_PER_PAGE);
 

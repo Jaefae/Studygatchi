@@ -1,7 +1,6 @@
 .goober-food-menu {
     width: 100%;
     box-sizing: border-box;
-    padding: 0 18px 18px;
 }
 
 .goober-food-header {
@@ -20,8 +19,8 @@
 }
 
 .goober-food-image {
-    width: 88%;
-    height: 88%;
+    width: 90%;
+    height: 90%;
     object-fit: contain;
     object-position: center;
     display: block;
