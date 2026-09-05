@@ -137,7 +137,7 @@ export default function GooberMenu({
           <button
             type="button"
             className={
-              "interactionNavBtn studygatchi-button " +
+              "interactionNavBtn " +
               (currentPage === "food" ? "active" : "")
             }
             onClick={() => setPage("food")}
@@ -147,7 +147,7 @@ export default function GooberMenu({
           <button
             type="button"
             className={
-              "interactionNavBtn studygatchi-button " +
+              "interactionNavBtn" +
               (currentPage === "play" ? "active" : "")
             }
             onClick={() => setPage("play")}
@@ -157,7 +157,7 @@ export default function GooberMenu({
           <button
             type="button"
             className={
-              "interactionNavBtn studygatchi-button " +
+              "interactionNavBtn" +
               (currentPage === "gift" ? "active" : "")
             }
             onClick={() => setPage("gift")}

@@ -21,13 +21,8 @@
 }
 
 @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .card {
@@ -67,7 +62,6 @@
 }
 
 .todolist-addItem {
-  box-sizing: border-box;
   margin: 4px 0 0 5px;
   font-size: 12px;
   padding: 4px 12px;
@@ -93,7 +87,6 @@
 }
 
 .todolist-trashbutton {
-  box-sizing: border-box;
   margin: 4px 0 0 5px;
   font-size: 12px;
   padding: 4px 12px;
@@ -183,32 +176,4 @@
 .settings input {
   margin-top: 0.25rem;
   padding: 0.25rem;
-}
-
-button.studygatchi-button,
-button.studygatchi-button:hover,
-button.studygatchi-button:active,
-button.studygatchi-button:focus,
-button.studygatchi-button:focus-visible,
-button.studygatchi-button.active,
-button.studygatchi-button.active:hover,
-button.studygatchi-button.active:active,
-button.studygatchi-button.active:focus,
-button.studygatchi-button.active:focus-visible {
-  border: 1px solid transparent;
-  box-sizing: border-box;
-}
-
-button.studygatchi-button:hover,
-button.studygatchi-button:active,
-button.studygatchi-button.active,
-button.studygatchi-button.active:hover,
-button.studygatchi-button.active:active {
-  border-color: var(--button-border-hover);
-}
-
-button.studygatchi-button:focus-visible,
-button.studygatchi-button.active:focus-visible {
-  outline: 2px solid var(--button-outline);
-  outline-offset: 2px;
 }
