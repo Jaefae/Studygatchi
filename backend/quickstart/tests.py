@@ -798,7 +798,7 @@ class TestTaskIsolation:
         assert "B" not in names
 
 
-@pytest.mark.tasks
+@pytest.mark.required
 class TestTaskUpdate:
     def test_update_task_authenticated_owner(
         self, api_client: APIClient, test_user: StudyUser, test_task: Task
