@@ -797,6 +797,7 @@ class TestTaskIsolation:
         assert "A" in names
         assert "B" not in names
 
+
 @pytest.mark.required
 @pytest.mark.tasks
 class TestTaskUpdate:
